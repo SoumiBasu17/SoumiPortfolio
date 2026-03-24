@@ -438,7 +438,7 @@ img {
   font-style: italic;
   font-size: 0.9rem;
   margin-top: var(--spacing-sm);
-  margin-right: 50px;
+
 }
 
 @media (max-width: 1024px) {
