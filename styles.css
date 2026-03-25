@@ -204,18 +204,15 @@ body {
 }
 
 .header__logo-img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  border-radius: 10%;
   object-fit: cover;
-  border: 1px solid black;
-  transition: var(--transition);
+  padding-bottom: 5px;
+
 }
 
-.header__logo-img:hover {
-  transform: scale(1.08);
-  box-shadow: var(--shadow-md);
-}
+
 
 .header__logo {
   padding-left: 10px;
