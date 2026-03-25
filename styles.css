@@ -204,11 +204,11 @@ body {
 }
 
 .header__logo-img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: var(--shadow-sm);
+  border: 1px solid black;
   transition: var(--transition);
 }
 
@@ -218,6 +218,7 @@ body {
 }
 
 .header__logo {
+  padding-left: 10px;
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 600;
